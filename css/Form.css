@@ -1,0 +1,237 @@
+.form-container {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+}
+.form-container .form-box {
+  height: 500px;
+  background-color: #000;
+  padding: 30px;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+.form-container .form-box .form-progressbar-box {
+  padding: 10px;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 5px;
+  background-color: #333;
+}
+.form-container .form-box .form-progressbar-box .form-progressbar-box-step-details {
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #999;
+  background-color: #333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+.form-container .form-box .form-progressbar-box .form-progressbar-box-step-details .form-progressbar-box-step-details-number {
+  border-radius: 50%;
+  background-color: #b799ff;
+  padding: 10px 15px;
+}
+.form-container .form-box .form-progressbar-box .form-progressbar-box-step-details .form-progressbar-box-step-details-number .form-progressbar-step-details-number {
+  background-color: transparent;
+}
+.form-container .form-box .form-progressbar-box .form-progressbar-box-step-details .form-progressbar-box-step-details-text {
+  background-color: transparent;
+}
+.form-container .form-box .form-progressbar-box .form-progressbar-box-step-details .form-progress-box-step-details-linear-box {
+  height: 5px;
+  width: 120px;
+  background-color: #b799ff;
+}
+.form-container .form-box .form {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #000;
+}
+.form-container .form-box .form .form-header-text {
+  padding: 5px 0;
+  margin-bottom: 15px;
+  font-size: 28px;
+  background-color: #000;
+}
+.form-container .form-box .form .form-box-input {
+  padding: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 5px;
+}
+.form-container .form-box .form .form-input-text {
+  background-color: #000;
+}
+.form-container .form-box .form .form-input {
+  border: 1px solid #555;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+  background-color: #000;
+}
+.form-container .form-box .form .form-input-date {
+  border: 1px solid #555;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  font-size: 17px;
+  outline: none;
+  background-color: #000;
+}
+.form-container .form-box .form-box-buttons {
+  width: 100%;
+  padding: 5px;
+  background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 5px;
+}
+.form-container .form-box .form-box-buttons .form-box-button {
+  width: 100%;
+  padding: 5px;
+  background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 5px;
+}
+.form-container .form-box .form-box-buttons .form-box-button .form-button {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  background-color: #b799ff;
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+.form-container .form-box .form-box-buttons .form-box-button .form-button:hover {
+  opacity: 0.7;
+}
+
+.popup {
+  width: 90%;
+  height: 60%;
+  border: none;
+  border-radius: 10px;
+  padding: 100px;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+.popup .popup-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+.popup .popup-details .popup-details-text {
+  padding: 15px;
+  text-align: left;
+}
+.popup .popup-button {
+  width: 100%;
+  color: #fff;
+  background-color: #b799ff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+.popup .popup-button:hover {
+  opacity: 0.7;
+}/*# sourceMappingURL=Form.css.map */
